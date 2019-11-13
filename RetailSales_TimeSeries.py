@@ -11,7 +11,7 @@ import xlrd
 from pylab import rcParams
 
 # Read excel data...
-df = pd.read_excel(r'C:/Users/sandhya.mukkamala/Downloads/Superstore.xls')
+df = pd.read_excel('Superstore.xls')
 # Perform time series analysis and forecasting for furniture sales
 furniture = df.loc[df['Category'] == 'Furniture']
 # Check time series of data i.e start and end of data
